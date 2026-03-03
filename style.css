@@ -760,13 +760,13 @@ body {
     display: flex;
     gap: 15px;
     margin-bottom: 15px;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .filter-row:last-child {
     margin-bottom: 0;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 /* 两端对齐样式 */
@@ -1132,12 +1132,12 @@ body {
         gap: 10px;
     }
     
-    .time-input, .text-input {
+    .time-input, .text-input, .select-input {
         width: 180px;
     }
     
     .select-input {
-        width: 180px;
+        width: 110px;
     }
 }
 
@@ -1152,11 +1152,6 @@ body {
 .filter-actions {
     display: flex;
     gap: 10px;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin: 0;
-    padding: 0;
-    width: 100%;
 }
 
 .reset-btn, .search-btn, .advanced-btn {
