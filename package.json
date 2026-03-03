@@ -1,0 +1,22 @@
+{
+  "name": "cacter-email-security-gateway",
+  "version": "1.0.0",
+  "description": "CACTER邮件安全网关系统",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo '构建完成'",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "email",
+    "security",
+    "gateway"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
